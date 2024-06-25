@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>Journey into the Fluid Universe: A Beginner's Guide to Computational Fluid Dynamics</title>
     <style>
         /* Add your custom styles here */
@@ -47,9 +48,12 @@
 
                     <ol>
                         <li><strong>Fluid Properties:</strong> Fluids can be classified as liquids or gases. Unlike solids, fluids conform to the shape of their container and flow easily. Understanding the properties of fluids is crucial for predicting their behavior.<br>
-                            $$ \rho = \frac{m}{V} $$ </li>
+                            $$
+                            \rho = \frac{m}{V} 
+                            $$ 
+                        </li>
                         <li><strong>Forces and Motions:</strong> Forces like gravity and pressure play significant roles in fluid motion. Newton's Second Law, \( F = ma \), guides our understanding of how these forces impact the acceleration of fluid particles.<br>
-                            \( F = \rho \cdot V \cdot a \)</li>
+                            \(F = \rho \cdot V \cdot a\)</li>
                     </ol>
 
                     <h2>Introduction to Computational Fluid Dynamics:</h2>
